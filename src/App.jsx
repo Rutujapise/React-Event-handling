@@ -4,14 +4,19 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ChangeHeading from './Componats/ChangeHeading'
 import Calculator from './Componats/Calculator'
+import Vegetables from './Componats/vegetables'
+import ContactForm from './Componats/Contact/ContactForm'
 
 function App() {
  
 
   return (
     <>
+    <ContactForm/>
+      <Vegetables/>
       <ChangeHeading/>
       <Calculator/>
+      
     </>
   )
 }
